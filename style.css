@@ -19,12 +19,17 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 * { box-sizing: border-box; }
-.main-section { width: 100%; height: 200%; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
-background: #b3dced; /* Old browsers */
-background: -moz-linear-gradient(top, #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+.main-section {
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  top: 100px;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+  background: #b3dced; /* Old browsers */
+  background: -moz-linear-gradient(top, #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
 }
 .nav-ul { height: 100px;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
@@ -35,6 +40,7 @@ background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 }
 .header-shell { width: 990px; height: 100px; margin: auto; }
+.header-container {position: fixed; top: 0; left: 0; right: 0; z-index: 99999;}
 .nav-ul li {display: inline-block; width: 45%; padding: 30px 0; }
 .nav-ul li span {display: block;}
 .nav-ul li span {color: white; font-size: 18px; font-family: 'Fredra', sans-serif; font-weight: 700; text-shadow: 1px 3px 1px #000; text-align: center; vertical-align:center; }
