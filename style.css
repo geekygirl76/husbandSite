@@ -41,11 +41,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 }
 .header-shell { width: 990px; height: 100px; margin: auto; }
 .header-container {position: fixed; top: 0; left: 0; right: 0; z-index: 99999;}
-.nav-ul li {display: inline-block; width: 45%; padding: 30px 0; }
+.nav-ul li {display: inline-block; width: 49%; padding: 30px 0; }
 .nav-ul li span {display: block;}
-.nav-ul li span {color: white; font-size: 18px; font-family: 'Fredra', sans-serif; font-weight: 700; text-shadow: 1px 3px 1px #000; text-align: center; vertical-align:center; }
-.nav-ul .header-shell li span.office-name { font-fize: 24px !important; }
-
+.nav-ul li span.small {color: white; font-size: 18px; font-family: 'Fredra', sans-serif; font-weight: 700; text-shadow: 1px 3px 1px #000;  vertical-align:center; }
+.nav-ul li span.office-name {color: white; font-size: 24px; font-family: 'Fredra', sans-serif; font-weight: 700; text-shadow: 1px 3px 1px #000;  vertical-align:center; }
+.nav-ul li span.header-text-left {text-align:left; }
+.nav-ul li span.header-text-right {text-align:right; }
 .maincontainer {width: 990px; margin: 0 auto; position: relative; }
 .main-content {width: 990px; margin: 0 0 0; padding: 5px 0 0 0; clear: both; }
 .main-content .left { width: 719px; height: auto; margin:0; float: left;}
