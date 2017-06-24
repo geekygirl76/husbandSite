@@ -219,7 +219,7 @@ p.introduction-p { font-family:  Helvetica, Arial,  sans-serif; color: #3b3b3b; 
 
     .header-container { height: 30%; }
     .header-container .top-nav { height: 100%; }
-    .header-container .top-nav .nav-ul { height: 100%; }
+    .header-container .top-nav .nav-ul { height: 100%; padding-bottom: 10px;  }
     .header-container .top-nav .nav-ul .header-shell { height: 100%; }
     .header-container .top-nav .nav-ul .header-shell .left-header,
     .header-container .top-nav .nav-ul .header-shell .right-header {
@@ -227,5 +227,9 @@ p.introduction-p { font-family:  Helvetica, Arial,  sans-serif; color: #3b3b3b; 
       padding: 10px;
     }
     .main-section { top: 30%; }
+
+    .welcome-sentence h4 { text-shadow: none;}
+    .nav-ul li span.small { text-shadow: none; font-size: 15px; }
+    .nav-ul li span.office-name {  text-shadow: none; font-size: 20px; }
 }
 .main-section { height: auto; }
