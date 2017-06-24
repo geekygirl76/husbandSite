@@ -192,6 +192,7 @@ p.introduction-p { font-family:  Helvetica, Arial,  sans-serif; color: #3b3b3b; 
     line-height: 150%; }
 .testimonials .highlight { color: #ff0000; font-size: 32px;}
 .testimonials .office-number {font-size: 24px; }
+
 @media only screen and (max-width: 768px) {
     .main-section {height: 300%;}
     .img-responsive {
@@ -215,4 +216,16 @@ p.introduction-p { font-family:  Helvetica, Arial,  sans-serif; color: #3b3b3b; 
     .hours-box { margin-top: 42px; width: 100%; }
     .nav-ul li span { font-size: 10px; }
     .header-shell {width: 100%; }
+
+    .header-container { height: 30%; }
+    .header-container .top-nav { height: 100%; }
+    .header-container .top-nav .nav-ul { height: 100%; }
+    .header-container .top-nav .nav-ul .header-shell { height: 100%; }
+    .header-container .top-nav .nav-ul .header-shell .left-header,
+    .header-container .top-nav .nav-ul .header-shell .right-header {
+      width: 100%;
+      padding: 10px;
+    }
+    .main-section { top: 30%; }
 }
+.main-section { height: auto; }
