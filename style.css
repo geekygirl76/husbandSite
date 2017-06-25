@@ -238,10 +238,11 @@ p.introduction-p { font-family:  Helvetica, Arial,  sans-serif; color: #3b3b3b; 
     .nav-ul li span.office-name {  text-shadow: none; font-size: 20px; }
     .nav-ul li.phone-header { display: block;  width: 100%; padding: 0;}
     .phone-header h2 { display: block; color: red; width: 100%; font-size: 20px; text-align:center;  }
+    .main-section { padding-top: 10%; }
 }
 
 @media only screen and (max-width: 667px) {
   .nav-ul li span.small.location-header { font-size: 12px; }
 }
-.main-section { height: auto; }
+.main-section { height: auto;  }
 .header-container { height: auto; }
