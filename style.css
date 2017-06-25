@@ -196,7 +196,7 @@ p.introduction-p { font-family:  Helvetica, Arial,  sans-serif; color: #3b3b3b; 
 
 .phone-header { display: none; }
 .phone-header h2 { display: none; }
-.nav-ul li span.small.location-header { font-size: 15px; } 
+.nav-ul li span.small.location-header { font-size: 15px; }
 
 @media only screen and (max-width: 768px) {
     .main-section {height: 300%;}
@@ -244,3 +244,4 @@ p.introduction-p { font-family:  Helvetica, Arial,  sans-serif; color: #3b3b3b; 
   .nav-ul li span.small.location-header { font-size: 12px; }
 }
 .main-section { height: auto; }
+.header-container { height: auto; }

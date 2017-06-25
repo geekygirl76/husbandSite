@@ -1,5 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="cufon-active cufon-ready">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./style.css">
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -212,5 +213,12 @@
       </div>
 
     </main>
+
+    <script>
+      $(function(){
+        var header_height = $('.header-container').outerHeight();
+        $('.main-section').css('top', header_height );
+      });
+    </script>
   </body>
 </html>
